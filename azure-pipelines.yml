@@ -7,7 +7,11 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: compgw
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'mkdir /tmp/testing9876'
 
 steps:
 - script: mkdir /tmp/test
