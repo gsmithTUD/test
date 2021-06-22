@@ -1,2 +1,3 @@
-write-host 'hello world'
-mkdir c:\testing8888
+cd /tmp
+mkdir testAZpipelines.txt
+echo "hello world" >> testAZpipelines.txt
