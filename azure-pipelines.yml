@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: compgw
+  vmImage: tenvironment-1-598aed57-0cd8-49d9-8eb2-5b879b9569bd
 - task: Bash@3
   inputs:
     targetType: 'inline'
